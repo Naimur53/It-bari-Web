@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, minimum-scale=1,maximum-scale=100">
+    <meta name="viewport" content="width=device-width, minimum-scale=1,maximum-scale=2">
     <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
@@ -26,7 +26,7 @@
     <div class="main-wrap nav-bg">
         <div class="wrap">
     <nav>
-        <ul>
+        <ul id=main-ul>
             <li><a href="#">home</a></li>
             <li><a href="inside.html">inside&raquo;</a>
                 <ul>
@@ -143,6 +143,19 @@
             <p>&COPY; All Right Reserved Naimur Rhaman</p>
         </div>
     </footer>
+     
+		
+<!--JS File For Responsive Menu -->	
+		<script src="scripts/responsive-menu.js"></script>
+		
+<script>
+  domready(function(){
+			selectnav('main-ul', {
+		label: '*** Select Nav *** '
+	});
+	prettyPrint()
+		})
+</script>
  
 
 </body>

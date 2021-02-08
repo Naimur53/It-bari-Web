@@ -133,13 +133,14 @@ section img{
 
 }
 .art figure{
-    margin:0 auto;
-    padding:20px;
-    background-color:#ddd;
-    width:400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ddd;
+    width: 65%;
+    height: auto;
 }
 .art figure img{
-    width:400px;
+    width:100%;
 }
 blockquote{
     background-color: #ddd;
