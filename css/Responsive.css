@@ -6,7 +6,10 @@
 -------------------------------------------------------------------------------
 cols    1     2      3      4      5      6      7      8      9      10
 px      68    160    252    344    436    528    620    712    804    896    */
- 
+img{
+    max-width:100%;
+    height:auto;
+}
 
 /*		Tablet Layout: 768px.
 		Gutters: 24px.
@@ -17,8 +20,27 @@ cols    1     2      3      4      5      6      7      8
 px      68    160    252    344    436    528    620    712    */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	
-	 
+
+	.wrap{
+        width:95%;
+    }
+    .art-div{
+        width:55%;
+    }
+    .left-div{
+         width:100%;
+    }
+    .right-div{
+        width:35%;
+    }
+    .art{
+        width:100%;
+        padding:0;
+    }
+    .left-div p{
+        width:100%;
+        display: inline-block;
+    }
 }
 
 
@@ -33,8 +55,29 @@ px      68    160    252    */
 
 @media only screen and (max-width: 767px) {
 	
-	 
-	
+    .wrap{
+        width:95%;
+    }
+    .art-div{
+        width:55%;
+    }
+    .left-div{
+         width:100%;
+    }
+    .right-div{
+        width:35%;
+    }
+    .art{
+        width:100%;
+        padding:0;
+    }
+    .left-div p{
+        width:100%;
+        display: inline-block;
+    }
+	nav{
+        display:none;
+    }
 }
 
 
@@ -47,8 +90,34 @@ px      68    160    252    */
 cols    1     2      3      4      5
 px      68    160    252    344    436    */
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-	
+@media only screen and (min-width: 180px) and (max-width: 767px) {
+    .wrap{
+        width:95%;
+    }
+    .art-div{
+        width:100%;
+    }
+    .left-div{
+         width:100%;
+    }
+    .left-div img{
+        width:90%;
+        height:auto;
+    }
+    .right-div{
+        width:70%;
+    }
+    .art{
+        width:100%;
+        padding:0;
+    }
+    .left-div p{
+        width:100%;
+        display: inline-block;
+    }
+	nav{
+        display:none;
+    }
  
 
 }

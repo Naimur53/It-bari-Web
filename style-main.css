@@ -1,4 +1,6 @@
- *{margin:0;padding:0}
+ *{margin:0;
+    padding:0;
+}
  body{
      background-color:#eee8ae;
 }
@@ -18,7 +20,7 @@ header {
     background-color:red;
     padding:10px;
     border-bottom:5px solid blue;
-    min-height:50px;fff;
+    min-height:50px;
     border-left:1px solid olivedrab;
     border-right:1px solid olivedrab;
 }
@@ -204,6 +206,7 @@ blockquote{
 }
 footer{
     background-color:black;
+    width:100%;
 }
 .foot p{
     text-align:center;
